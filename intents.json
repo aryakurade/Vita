@@ -1,0 +1,345 @@
+{"intents":[
+    {
+          "tag": "greeting",
+          "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hey there","hello there"],
+          "responses": ["Hello How may I help You?", "Hi,How can I help You?", "Hi there,What Can I do for You Today?","मैं आपकी क्या मदद कर सकता हूँ"],
+          "context_set":""
+      },
+
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later", "Goodbye"],
+          "responses": ["See you later", "Have a nice day", "Bye! Come back again"],
+          "context_set":""
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+          "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!","धन्यवाद"],
+          "context_set":""
+      },
+
+      {
+          "tag": "about",
+          "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+          "responses": ["I'm VITs intelligent bot assistant, here at your service!"],
+          "context_set":""
+      },
+
+      {
+          "tag": "name",
+          "patterns": ["what is your name", "what should I call you", "whats your name?"],
+          "responses": ["People know me by the name VITA","लोग मुझे वीटा कहते हैं"]
+      },
+
+      {
+          "tag":"admission",
+          "patterns":["what is the admission process","How can I take admission in this institution?"],
+          "responses":["You can visit the VIT website - https://chennai.vit.ac.in/ and get all the details"]
+      },
+      {
+          "tag":"complaint",
+          "patterns":["I have a complaint.","I want to raise an issue.", "I am facing an inconvenience.","I want to report a problem."],
+          "responses":["Please contact us and let us know your issue. We're more than happy to help you out! Ph.:+914439931555"],
+          "context_set":""
+      },
+
+      {
+          "tag":"contact",
+          "patterns":["How do I contact you?","helpline numbers","What are your contact details?","How do I reach you?","WHat are your sources of cotact in case of need?"],
+          "responses":["Contact us on Ph.:+914439931555 , Fax: +914439932555 or mail us at admin.chennai@vit.ac.in. We're open Monday through Saturday from 8am to 5pm."],
+          "context_set":""
+      },
+
+      {
+          "tag":"social connect",
+          "patterns":["Does the college have any social media connect?","Are there any other sources how we can get to know the college better?","Does the college have an active social media account?","How can we connect with the college socially?"],
+          "responses":["We operate on active handles on Instagram or Youtube. Please feel free to check us on https://www.instagram.com/vit.chennai/?hl=en, https://www.youtube.com/c/VITChennaic"],
+          "context_set":""
+      },
+
+      {
+          "tag":"working-hours",
+          "patterns":["When would the college be reachable for the public?","What are the working hours of the college?","When can we reach out to the college?","When can we visit the college?"],
+          "responses":["The college is functional from 8am to 5pm on workdays from Monday to Saturday, or please free to call us on our helpline numbers!"],
+          "context_set":""
+      },
+
+      {
+          "tag":"location",
+          "patterns":["Where is the college exactly located?","What is the location of the college?","Where is the college situated?","How can we access the college?"],
+          "responses":["Address: Vellore Institute of Technology, Vandalur – Kelambakkam Road Chennai, Tamil Nadu – 600 127. Click on the link to access the Google Map location https://www.google.com/maps/d/viewer?mid=1mur3OBbdG2VL-UPGOTV-j2vO6JE&msa=0&ll=12.973079999999985%2C79.159112&z=17"],
+          "context_set":""
+      },
+
+      {
+          "tag":"why-choose-VIT",
+          "patterns":["Why should we choose VTI?","What are the speciality traits of VIT?","Why should we prefer this college over any other college?"],
+          "responses":["VIT was established with the aim of providing quality higher education on par with international standards. It persistently seeks and adopts innovative methods to improve the quality of higher education on a consistent basis.The campus has a cosmopolitan atmosphere with students from all corners of the globe."],
+          "context_set":""
+      },
+
+      {
+          "tag":"what-we-offer",
+          "patterns":["What courses does the college offer?","What are the choosable streams in this college?","What are the offered courses in this college?","What courses can I opt for?"],
+          "responses":["We offer Computer Engineering, Electronics and Telecommunication Engineering, Mechanical Engineering, Electrical Engineering, Information Technology Engineering,Law and Masters courses."],
+          "context_set":""
+      },
+
+    {
+      "tag":"form",
+      "patterns":["Which website  should I refer for admission form?"," Where should I apply for admission process?","For admission process which website should I visit?","Will you please give the link for the website for admission process?","How should I apply for admission process?"],
+      "responses":["For admission process refer https://viteee.vit.ac.in/"]
+
+  },
+  {
+      "tag":"counslelling round",
+      "patterns":["What after the admission test?","What is the admission Process After Allotment of the college?","Can you help me with the admission procedure after the allotment of the college?","What is admission Procedure after Allotment?","Could you please tell me the process for admission after entrance test?","What are the steps for taking admission in first year?"],
+      "responses":["The first round of counselling will be held within 3 weeks of the entrance test, visit https://chennai.vit.ac.in/admissions/ for further details."]
+
+  },
+
+  {
+   "tag":"Computer-Intake",
+   "patterns":["what is the intake for computer department?","what is the intake for computer branch?","will you please let us know the intake for computer department","What is the total number of students in computer department?","what is total strength  of students enrolled for computer science branch?","how many seats are available for enrolling in computer branch?","How many seats are there for getting admission into computer branch?","what is the total number of seats for computer science branch?","How many students are allotted computer branch?","what is the intake for computer science department?"],
+   "responses":["Intake for computer engineering is 2000 seats"]
+
+
+  },
+  {
+      "tag":"IT-Intake",
+      "patterns":["what is the intake for IT department?","what is the intake for IT branch?","will you please let us know the intake for IT department","What is the total number of students in IT department?","what is total strength  of students enrolled for IT science branch?","how many seats are available for enrolling in IT branch?","How many seats are there for getting admission into IT branch?","what is the total number of seats for IT science branch?","How many students are allotted IT branch?","what is the intake for IT science department?"],
+      "responses":["Intake for IT department is 1000 seats"]
+
+
+     },
+     {
+      "tag":"Mechanical-Intake",
+      "patterns":["what is the intake for Mechanical department?","what is the intake for Mechanical branch?","will you please let us know the intake for Mechanical department","What is the total number of students in Mechanical department?","what is total strength  of students enrolled for Mechanical science branch?","how many seats are available for enrolling in Mechanical branch?","How many seats are there for getting admission into Mechanical branch?","what is the total number of seats for Mechanical science branch?","How many students are allotted Mechanical branch?","what is the intake for Mechanical science department?"],
+      "responses":["Intake for Mechanical department is 1800 seats"]
+
+
+     },
+
+     {
+      "tag":"Electrical-Intake",
+      "patterns":["what is the intake for Electrical department?","what is the intake for Electrical branch?","will you please let us know the intake for Electrical department","What is the total number of students in Electrical department?","what is total strength  of students enrolled for Electrical science branch?","how many seats are available for enrolling in Electrical branch?","How many seats are there for getting admission into Electrical branch?","what is the total number of seats for Electrical science branch?","How many students are allotted Electrical branch?","what is the intake for Electrical science department?"],
+      "responses":["Intake for Electrical department is 1200 seats"]
+
+
+     },
+     {
+      "tag":"computer-Intake",
+      "patterns":["what is the intake for computer department?","what is the intake for computer branch?","will you please let us know the intake for computer department","What is the total number of students in DSE-computer department?","what is total strength  of students enrolled for DSE-computer science branch?","how many seats are available for enrolling in DSE-computer branch?","How many seats are there for getting admission into DSE-computer branch?","what is the total number of seats for DSE-computer science branch?","How many students are allotted DSE-computer branch?","what is the intake for DSE-computer science department?"],
+      "responses":["Intake for DSE computer  department is 1250 seats"]
+
+
+     },
+     {
+      "tag":"IT-Intake",
+      "patterns":["what is the intake for DSE-IT department?","what is the intake for DSE-IT branch?","will you please let us know the intake for DSE-IT department","What is the total number of students in DSE-IT department?","what is total strength  of students enrolled for DSE-IT science branch?","how many seats are available for enrolling in DSE-IT branch?","How many seats are there for getting admission into DSE-IT branch?","what is the total number of seats for DSE-IT science branch?","How many students are allotted DSE-IT branch?","what is the intake for DSE-IT science department?"],
+      "responses":["Intake for DSE IT  department is 600 seats"]
+
+
+     },{
+      "tag":"Mechanical-Intake",
+      "patterns":["what is the intake for Mechanical department?","what is the intake for DSE-Mechanical branch?","will you please let us know the intake for DSE-Mechanical department","What is the total number of students in DSE-Mechanical department?","what is total strength  of students enrolled for DSE-Mechanical science branch?","how many seats are available for enrolling in DSE-Mechanical branch?","How many seats are there for getting admission into DSE-Mechanical branch?","what is the total number of seats for DSE-Mechanical science branch?","How many students are allotted DSE-Mechanical branch?","what is the intake for DSE-Mechanical science department?"],
+      "responses":["Intake for Mechanical Department is:-1500"]
+
+
+     },
+
+
+     {
+      "tag":"ME-Intake",
+      "patterns":["what is the intake for masters degree?","what is the intake for ME branch?","will you please let us know the intake for ME department","What is the total number of students in ME department?","what is total strength  of students enrolled for ME science branch?","how many seats are available for enrolling in ME branch?","How many seats are there for getting admission into ME branch?","what is the total number of seats for ME science branch?","How many students are allotted ME branch?","what is the intake for ME science department?"],
+      "responses":["the intake is 500"]
+     },
+
+     {
+    "tag":"FE-Eligibility",
+    "patterns":["what is the eligibility criteria for taking admission to first year of engineering?","how much we need to score to get admission for engineering ?","what are minimum eligibility requirements for taking admission to engineering first year?","how many minimum percentage  are required in 12th boards examination for getting admission in college ?","what is the eligibility for engineering admission?","how many total percentage should I get in pcm to get admission into engineering college?","What are the minimum PCM marks for getting admission to engineering college?","please let me know the eligibility criteria for admission into engineering?","How many PCM marks are required for getting admission into FE?","How many marks are required to get admission to engineering?","Is PCM in 12th compulsory for admission to First Year engineering? What are the eligibility criteria?"],
+    "responses":["For Eligibility criteria refer :-75% in PCM in +2"]
+     },
+
+     {
+         "tag":"MBA-Eligibility",
+         "patterns":["what is the eligibility criteria for taking admission to MBA?","please let me know the eligibility criteria for admission into MBA?","what are minimum eligibility requirements for taking admission to MBA?"],
+         "responses":["A score of 200+ in CAT exam and a percentile greater than 90"]
+     },
+
+     {
+        "tag":"Documents",
+        "patterns":["What documents are required for admission into an engineering college after 12th?","What documents are required for engineering admission?","What documents do i need to present for admission to an engineering college in Maharashtra?","What parental documents are required at the time of admission in college?","what documents are required for engineering admission after 12th science?","What documents are required for first year admission?","Give the list of documents for first year admission?","What all documents are necessary for first year engineering admission?","What all documents to bring for admission process of engineering?","Which documents are required for computer engineering admission?","Which documents are required for IT engineering admission?","Which documents are required for Mechanical engineering admission?","Which documents are required for Electrical engineering admission?","Which documents are required for ENTC engineering admission?","Which all documents are needed for first year engineering admission?","Do we need original copies of all documents for engineering admission?","How many Photocopies of all documents are needed for engineering admission?","What are the documents required for admission in an Engineering College?"],
+        "responses":["DO Checkout this link for the list of documents needed for FE Admission Process https://www.mmcoe.edu.in/index.php/admissions/documents-req-admission/documents-req-fy-admission","List of Documents Needed For FE Admission Purpose are available on: https://www.mmcoe.edu.in/index.php/admissions/documents-req-admission/documents-req-fy-admission","Click on this link to checkout the list of documents needed for admission process. https://www.mmcoe.edu.in/index.php/admissions/documents-req-admission/documents-req-fy-admission","For all the information regarding documents head over to https://www.mmcoe.edu.in/index.php/admissions/documents-req-admission/documents-req-fy-admission this page and get the list of documents needed for FE admission Process."]
+     },
+      {
+          "tag":"fee-payment-process",
+          "patterns":["what is the process of fee payment?","How to pay fees?","what are the steps to pay fees ?","can you help me with fees payment?","How can we pay fees?","what are the steps for paying fees for current academic year?","Information about paying fees?"],
+          "responses":["For all the information regarding Fees payment click on:- https://chennai.vit.ac.in/admissions/ug/fee-structure/ "]
+
+      },
+      {
+          "tag":"FEES",
+          "patterns":["what are the  total fees for UG Students?","what are the total fees for students?","what are the total fees for FE IT?","what are the total fees for FE Mechanical?","what are the total fees for FE Electrical?","what are the total fees for FE ENTC?","what is fee structure for First year?","Total fees for first year of Engineering?","what are total fees for first year admission?","What are the fees per year for FE? "],
+          "responses":["Refer this linkfor complete details of FEE Structure of first year engineering. https://chennai.vit.ac.in/admissions/ug/fee-structure/"]
+
+      },
+
+      {
+          "tag":"MBA-FEES",
+          "patterns":["what is total fees for MBA?","what is fee structure for MBA?","total fees for MBA?","What are the fees per year for MBA? "],
+          "responses":["Refer this Pdf for complete details of FEE Structure of MBA. https://www.mmcoe.edu.in/images/Office/FeePaymentProcess/MBA_Fes_Structure_20-21.pdf"]
+
+      },
+
+      {
+          "tag":"scholarships",
+          "patterns":["What is the income limit for EBC scholarship? Who can avail it? ","I am from the OBC category but I do not have the related documents. Can I apply for EBC? "],
+          "responses":["Information Regarding Scholarship is available on https://vit.ac.in/scholarship"]
+
+      },
+      {
+          "tag":"Faculty-College",
+          "patterns":["Tell me about the faculty of VIT","List of faculty in VIT","Names of the Faculty members present at VIT","Faculty of VIT","PhD faculty members of VIT","Teachers of VIT","Faculty of Computer Engennering","Faculty of comp","Faculty of Computer Branch","Computer Branch Faculty","Names of faculty members at computer branch"],
+          "responses":["Refer to this page to get details about the faculty at VIT:-https://chennai.vit.ac.in/computer-science-engineering-chennai/faculty/ "]
+    },
+    {
+          "tag":"Research-Projects",
+          "patterns":["What Research projects are ongoing at VIT","What Research Projects is the Faculty perusing?","Research paper","Projects taken by faculty","What are the Projects taken by faculty","List of Reserach projects","Research Projects"],
+          "responses":["Refer to this link for all the Research Projects at MMCOE:-https://chennai.vit.ac.in/research/"],
+          "context_set":""
+
+    },
+    {
+          "tag":"Student-projects",
+          "patterns":["What Student projects are ongoing at VIT","What Student Projects is the Faculty perusing?","Student paper","Projects taken by faculty","What are the Projects taken by faculty","List of Student projects","Student Projects"],
+          "responses":["Refer to this link for all the Student Projects at VIT: https://chennai.vit.ac.in/computer-science-engineering-chennai/projects/"],
+          "context_set":""
+    },
+    {
+          "tag":"About-VIT",
+          "patterns":["Can you tell me about VIT","History of VIT","Information about VIT","What is VIT","Breif info about VIT","About VIT","Tell me about vellore institute of technology"],
+          "responses":["For information about VIT please refer this hyperlink:https://chennai.vit.ac.in/about/"],
+          "context_set":""
+    },
+
+
+    {
+          "tag":"Affiliations and Recognitions",
+          "patterns":["What are the affiliations of VIT?","Recognistions of VIT","Is VIT affiliated?","VIT'S affiliation?"],
+          "responses":["For information about Affiliations and Recognistion please use this hyperlink:-https://vit.ac.in/vit-milestones"],
+          "context_set":""
+    },
+    {
+          "tag":"POLICY/Governance",
+          "patterns":["What are the different policies at VIT?","policies at VIT?","What is the academic policy of VIT?","What is the internship policy of VIT","HR policy","What is the recruitment policy at VIT?","Recruitment Policy"],
+          "responses":["To know more about the policies and the governance oF VIT please visit:-https://vit.ac.in/governance"],
+          "context_set":""
+    },
+
+    {
+          "tag":"Placement",
+          "patterns":["How is the placement in mmcoe?","Are there any good placements for Students in VIT?","The Placement Record in VIT","Are there international placements in VIT?","International internships at VIT","International placements at VIT","Highest package for international placement at VTI","Highest package at VTI","Placement drive at VIT","Job  at VIT"],
+          "responses":["The highest placement was of 44lakh in 2021, and average is of 7.2lakh , For details related to Placement in VIT please refer to this page:-https://vit.ac.in/placements/superdreamoffers"],
+          "context_set":""
+    },
+
+
+    {
+          "tag": "Departments",
+          "patterns": ["Departments?", "Give me list of Departments?", "Available Departments?", "Which Departments does VIT have?", "Which Departments do you have?", "Give me Department related Information.", "Tell me, which Departments VIT has."],
+          "responses": ["Computer, IT, Electrical, E&TC, Mechanical, Engineering Sciences,LAW and MBA"],
+          "context_set": ""
+         },
+         {"tag": "Available departments",
+          "patterns": [ "Do you have Computer Department?", "Do you have IT Department?", "Do you have Electrical Department?", "Do you have E&TC Department?", "Do you have Mechanical Department?", "Does MMCOE have Computer Department?", "Does MMCOE have IT Department?", "Does MMCOE have E&TC Department?", "Does MMCOE have Electrical Department?", "Does MMCOE have Mechanical Department?"],
+          "responses": ["Yes, we have above mentioned department."],
+          "context_set": ""
+         },
+         {"tag": "Unavailable departments",
+          "patterns": ["Do you have Civil Department?", "Do you have Production Department?"],
+          "responses": ["Sorry, but we don't have the above mentioned departments."],
+          "context_set": ""
+         },
+         {"tag": "Computer department-cutoff",
+          "patterns": ["What is the cutoff for Computer department?", "Cutoff list for Computer Engineering?", "Computer Engineering cutoff?", "What is the CET score required for Computer Engineering?","Required Rank for Computer Engineering?", "What is the required Rank for getting admission for Computer Engineering?", "For getting admission for computer engineering what is the CET cutoff?", "For getting admission for computer engineering what is the JEE cutoff?","For getting admission for Computer Engineering, what is the minimum CET Score required?", "For getting admission for Computer Engineering, what is the minimum JEE Score required?", "For getting admission for Computer Engineering, what is the minimum Rank required?", "What is the cutoff for Computer department OPEN castee?", "What is the cutoff for Computer department SC caste?", "What is the cutoff for Computer department VJ caste?", "What is the cutoff for Computer department NT1 caste?", "What is the cutoff for Computer department NT2 caste?", "What is the cutoff for Computer department NT3 caste?", "What is the cutoff for Computer department OBC caste?", "What is the cutoff for Computer department AI caste?"],
+          "responses": ["Refer the link below for cutoffs: https://www.shiksha.com/university/vellore-institute-of-technology-chennai-vit-university-46274/cutoff"],
+          "context_set": ""
+         },
+
+           {
+                "tag":"extra-curricular activities",
+                "patterns":["Why are extra-curricular activities conducted?","What is the aim of conducting extra-curricular activities", "What are the objectives of extra-curricular activities?", "What extra-curricular activities are carried out at the college?"],
+                "responses":["To nourish students’ positive life values and attitudes. To develop students’ leadership skills and organizational skills.To explore and develop students’ potential and talents to the fullest. To raise students’ sense of belonging to school through extra-curricular activities. For more information, visit https://chennai.vit.ac.in/campus/students-welfare-council/"],
+                "context_set":""
+            },
+
+            {
+                "tag":"sports-name",
+                "patterns":["What sports are conducted at the college?","What physical activities are encouraged at the institution","Indoor-Outdoor activities carried out the college?","Sport facilities available"],
+                "responses":["The college has its own Cricket, Football, Volleyball, Football,Basketball Kabaddi ground, it also has modern style well equipped Gymnasium. Table Tennis,Squash,Swimming pool, Yoga,Carrom and Chess facilities are also provided.Visit us on https://chennai.vit.ac.in/campus/sports/"],
+                "context_set":""
+            },
+
+
+            {
+                "tag":"nss-detail",
+                "patterns":["What is NSS?","What are the activities at NSS?","Events at NSS","Activities at NSS"],
+                "responses":["NSS actively participated in youth welfare tasks and events that maintain a social cause at heart. The main events carried out are blood donation camps,police mitra, tree plantations, ganesh festivals, sapling distribution, grocery donation, job fairs, e-waste collection, treks, winter camps, etc.For further details : https://vit.ac.in/national-service-scheme-special-camp-2020"],
+                "context_set":""
+            },
+
+
+            {
+                "tag":"cultural-activities",
+                "patterns":["Cultural activities conducted at college","What cultural events are organised?"],
+                "responses":["Various events like gaming,hackathon,dance ,singing,open mic are frequently conducted.Visit https://chennai.vit.ac.in/campus/fests/ for more details and information."],
+                "context_set":""
+            },
+
+            {
+                "tag":"code-of-conduct",
+                "patterns":["What is the code of conduct?","What are the rules and regulations of the college?","Rules and Regulations","Codeof Conduct","Expected behaviour from students","Terms for Students to abide"],
+                "responses":["Visit https://chennai.vit.ac.in/files/Student-Code-of-Conduct%20document.pdf for the detailed set pf rules and regulations for the student's code of conduct."],
+                "context_set":""
+            },
+
+
+            {
+                "tag":"student-club",
+                "patterns":["What Clubs are supported by the college?","What are the clubs of VIT?","Which clubs are facilitated for the students?"],
+                "responses":["VIT has multiple funded and supported clubs that represent the college like MISC,GDSC,ECELL,DANCE_CLUB,IEEE,TREKKING_CLUB among various others. These clubs represent the college in events carried out throughout India and bring name to the college.To know about clubs and chapter in detail refer to :https://chennai.vit.ac.in/campus/studentchapters_clubs/"],
+                "context_set":""
+            },
+
+
+            {"tag": "Campus",
+             "patterns": ["What about the Campus?", "Information about Campus", "Tell me something about the Campus", "Campus Information", "Campus Details", "Campus"],
+             "responses": ["For more information about the campus please visit 'https://chennai.vit.ac.in/campus/'"],
+             "context_set":""
+            },
+
+            {"tag": "Campus-Laboratories",
+             "patterns": ["Information about the labs", "What about the laboratories", "Information about laboratories", "Department Laboratories", "laboratories", "labs"],
+             "responses": ["The institution boasts a whopping number of 67 different laboratories for different departments, engaged in a variety of different projects simultaneously"],
+             "context_set":""
+            },
+            {"tag": "Campus-Classrooms",
+             "patterns": ["Information about the classrooms", "Tell me something about the classrooms", "What about the classrooms", "Classrooms", "classroom"],
+             "responses": ["All classrooms are equipped with modern furniture, LCD projectors with white screen, greenboard, white board and internet."],
+             "context_set":""
+            },
+            {"tag": "Campus-Hostels",
+             "patterns": ["Hostel facilities", "What about the hostel", "Tell me something about the hostel", "hostel", "Tell me about the hostel", "Does the college have hostel facilities"],
+             "responses": ["The institution provides excellent hostel facilities with various amenities, there is separate hostels for boys and girls"],
+             "context_set":""
+            },
+            {"tag": "Campus-Playground",
+             "patterns": ["What about the playground", "Does the college have a playground", "ground", "playground", "Tell me something about the playground"],
+             "responses": ["The institute has a big playground for various sports and activites situated int the campus"]
+
+            }
+
+]
+}
